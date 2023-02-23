@@ -8,10 +8,7 @@
     }
 
     body {
-        background-image: url('spiral-sudheer-nunna-edit.jpg');
-        /*background-image: url('daria-durand-ripples.jpg');*/
-        /*background-image: url(adrien-converse-contours.jpg);*/
-        /*background-image: radial-gradient(circle,rgba(0, 0, 0, 0.537) 80%,rgba(255, 255, 255, 0)),url(brandon-vazquez-koC5eG6v6ew-unsplash.jpg);*/
+        background-image: url('sudheer-nunna-centre.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -23,6 +20,36 @@
         font-family: Kilo;
         font-size: 60px;
 
+    }
+
+    p   {
+        color: lightgray;
+        font-size: 17px;
+        background-color: rgba(211, 211, 211, 0);
+        width: 370px;
+        border: 0px ;
+        padding: 50px;
+        margin: 20px;
+    }
+
+    p2   {
+        color: lightgray;
+        font-size: 17px;
+        background-color: rgba(211, 211, 211, 0);
+        width: 400px;
+        border: 0px ;
+        padding: 50px;
+        margin: 20px;
+    }
+
+    p3   {
+        color: lightgray;
+        font-size: 17px;
+        background-color: rgba(211, 211, 211, 0);
+        width: 700px;
+        border: 0px ;
+        padding: 50px;
+        margin: 20px;
     }
 
     a:link { /*Link colours */
@@ -43,49 +70,8 @@
         text-decoration: none;
     }
 
-    div.box { /* Big circle */
-        --s:525px;  /*Size of the circle */
-        --p:17px;   /* padding */
-
-        height: var(--s);
-        width: var(--s);
-        border-radius: 50%;
-        background: rgba(71, 70, 70, 0.7);
-        color:lightgray;
-        margin:30px auto;
-        font-size:18px;
-        text-align:center;
-    }
-
-    .box i,
-    .box::before {
-        content: '';
-        float: left;
-        height:100%;
-        width: 50%;
-        shape-outside: radial-gradient(farthest-side at right, transparent calc(100% - var(--p)), #fff 0);
-    }
-
-    .box i {
-        float: right;
-        shape-outside: radial-gradient(farthest-side at left,  transparent calc(100% - var(--p)), #fff 0);
-    }
-
-    div.box2 { /* Small circle */
-        --s:190px;  /*Size of the circle */
-        --p:20px;   /* padding */
-
-        height: var(--s);
-        width: var(--s);
-        border-radius: 50%;
-        background: #3c3c3c8a;
-        color:#fff;
-        margin:30px auto;
-        font-size:16px;
-        text-align:justify;
-    }
-
-    .box2 i,
+    /* Logo */
+    .box2 i,  
     .box2::before {
         content: '';
         float: left;
@@ -161,37 +147,34 @@
     <div class="text gradient-2">#Tim Booker</div>
     <div class="text glow-2">#Tim Booker</div>
     
-    <div style = "position:absolute; left:220px; top:190px;" class="box">
+    <p style = "position:absolute; left:50px; top:150px;">
     <i></i> 
-    <br><br>
     <b>TIM BOOKER</b>
     <br><br>
-    I am a Ph.D. candidate at the <a href="https://www.csh.ac.at/">Complexity Science Hub, Vienna</a>
-    from Perth, Australia.
-    <br><br>I want to rewire our systems to create a humanity
+    Ph.D. candidate at the <br><a href="https://www.csh.ac.at/">Complexity Science Hub, Vienna</a>.
+    <br><br>Orininally from Perth, Australia.
+    <br><br>I want to rewire our systems to create a humanity 
     that is sustainable, equitable, fulfilling, and capable of managing
     the current <a href="https://cascadeinstitute.org/technical-paper/what-is-a-global-polycrisis/">
     <em>global polycrisis</em></a>.
+    
+    </p>
+  
+    <p2 style = "position:absolute; left:50px; top:380px;">
     <br><br>
-    I currently work on theoretical foundations of complex systems, including 
-    the resilience of generalised network models and social group formation 
-    a physics-inspired lens.
-     
+    I'm broadly interested in developing complex systems theory for 
+    governance, ideology, and social technology, with the intent to change 
+    how our systems work for the betterment and sustainability of all human life.
+
     <br><br>
     Previously I was a visiting scholar at <a href="https://www.gsais.kyoto-u.ac.jp/en-top/overview">Shishu-kan, Kyoto University</a>, 
     where I studied the entropy of complex systems.
-  </div>
+    </p2>
   
+    <p3 style = "position:absolute; left:50px; top:660px;">
+    Research interests&nbsp;&nbsp;|&nbsp;&nbsp;Personal interests&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://twitter.com/tims_not_real">Twitter</a>
+    </p3>
 
-  <div style = "position:absolute; left:750px; top:500px; text-align: center" class="box2">
-    <i></i> 
-    <br><br>Projects
-    <br><br><a href="https://twitter.com/tims_not_real">Twitter</a>
-    <br><br>Research interests
- 
-
-
-  </div>
 </body>    
 
 
