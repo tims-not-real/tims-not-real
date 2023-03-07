@@ -6,70 +6,47 @@
         font-family: Kilo;
         src: url(Kilo.otf);
     }
+    @font-face {
+        font-family: Charter-Regular;
+        src: url(Charter-Regular.otf);
+    }
+    @font-face {
+        font-family: Charter-Bold;
+        src: url(Charter-Bold.otf);
+    }
+
 
     body {
-        background-image: url('sudheer-nunna-centre.jpg');
+        background-image: url('dan-cristian-padure-SMSLyc9FHl0-unsplash - Copy.jpg');
+        /*background-image: url('daria-durand-ripples.jpg');*/
+        /*background-image: url(adrien-converse-contours.jpg);*/
+        /*background-image: radial-gradient(circle,rgba(0, 0, 0, 0.537) 80%,rgba(255, 255, 255, 0)),url(brandon-vazquez-koC5eG6v6ew-unsplash.jpg);*/
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    h1  {
-        color: lightgray;
-        font-family: Kilo;
-        font-size: 60px;
+    .txtbox {
+            left:30px; 
+            top:160px;    
+            width: 380px;
+            border: 0;
+            padding: 50px;
+            margin: 0;
+            position:absolute; 
 
+        }
+
+    h1   {
+        color: lightgray;
+        font-family: Charter-Bold;
+        font-size: 20px;
+        letter-spacing: 0px;    
     }
-
-    p   {
+    p  {
         color: lightgray;
+        font-family: Charter-Regular;
         font-size: 17px;
-        background-color: rgba(211, 211, 211, 0);
-        width: 370px;
-        border: 0px ;
-        padding: 50px;
-        margin: 20px;
-    }
-
-    p2   {
-        color: lightgray;
-        font-size: 17px;
-        background-color: rgba(211, 211, 211, 0);
-        width: 400px;
-        border: 0px ;
-        padding: 50px;
-        margin: 20px;
-    }
-
-    p5   {
-        color: lightgray;
-        font-size: 17px;
-        background-color: rgba(211, 211, 211, 0);
-        width: 450px;
-        border: 0px ;
-        padding: 50px;
-        margin: 20px;
-    }
-
-    p3   {
-        color: lightgray;
-        font-size: 17px;
-        background-color: rgba(211, 211, 211, 0);
-        width: 700px;
-        border: 0px ;
-        padding: 50px;
-        margin: 20px;
-    }
-
-    p4   {
-        color: rgba(105, 105, 105, 0.61);
-        font-size: 14px;
-        background-color: rgba(211, 211, 211, 0);
-        width: 460px;
-        border: 0px ;
-        padding: 50px;
-        margin: 20px;
     }
 
     a:link { /*Link colours */
@@ -90,36 +67,25 @@
         text-decoration: none;
     }
 
-    /* Logo */
-    .box2 i,  
-    .box2::before {
-        content: '';
-        float: left;
-        height:100%;
-        width: 50%;
-        shape-outside: radial-gradient(farthest-side at right, transparent calc(100% - var(--p)), #fff 0);
-    }
 
-    .box2 i {
-        float: right;
-        shape-outside: radial-gradient(farthest-side at left,  transparent calc(100% - var(--p)), #fff 0);
-    }
 
     body {
         padding: 0;
         margin:auto;
-        width: 50%;
+        width: 100%;
         }
 
         .text {
         position: absolute;
         top: 60px;
+        left: 50px;
         font-size: 60px;
         font-family: Kilo;
         margin:0%;
         text-align: center;
         }
         
+    
         .background {
         color: white;
         }
@@ -161,48 +127,42 @@
 
   
 <body>
-    <div class="text background">#Tim Booker</div>
-    <div class="text glow">#Tim Booker</div>
-    <div class="text gradient-1">#Tim Booker</div>
-    <div class="text gradient-2">#Tim Booker</div>
-    <div class="text glow-2">#Tim Booker</div>
+    <div class="text background">#Tim<br>Booker</div>
+    <div class="text glow">#Tim<br>Booker</div>
+    <div class="text gradient-1">#Tim<br>Booker</div>
+    <div class="text gradient-2">#Tim<br>Booker</div>
+    <div class="text glow-2">#Tim<br>Booker</div>
     
-    <p style = "position:absolute; left:150px; top:150px;">
-    <i></i> 
-    <b>TIM BOOKER</b>
-    <br><br>
-    Ph.D. candidate at the <br><a href="https://www.csh.ac.at/">Complexity Science Hub, Vienna</a>.
-    <br><br>Originally from Perth, Australia.
-    <br><br>I want to rewire our systems to create a humanity 
-    that is sustainable, equitable, fulfilling, and capable of managing
-    the current <a href="https://cascadeinstitute.org/technical-paper/what-is-a-global-polycrisis/">
-    <em>global polycrisis</em></a>.
-    
-    </p>
-  
-    <p2 style = "position:absolute; left:150px; top:355px;">
-    <br><br>
-    I'm broadly interested in developing complex systems theory for 
-    governance, ideology, and social technology, with the intent to change 
-    how our systems work for the betterment and sustainability of all human life.
-
-    </p2>
-    <p5 style = "position:absolute; left:150px; top:520px;">
-        Previously I was a visiting scholar at <a href="https://www.gsais.kyoto-u.ac.jp/en-top/overview">Shishu-kan, Kyoto University</a>,  
-    where I studied the entropy of complex systems.
-    </p5>
-
-   
-  
-    <p3 style = "position:absolute; left:150px; top:630px;">
-    Research interests&nbsp;&nbsp;|&nbsp;&nbsp;Personal interests&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://twitter.com/tims_not_real">Twitter</a>
-    </p3>
+    <div class="txtbox">
+        <h1>
+            Tim Booker
+        </h1>
+        <p style>
+        Welcome to my page. This is a space for you to learn about my research, thoughts, and character. 
+        <br><br>
+        I hold the opinion that there are deep roots to the problem of human society. To understand these roots, I'm interested in the
+        threads of governance, ideology, and social networks. These corespond nicely to the management, the comprising agents, 
+        and systemic properties of complex systems, respectively. 
+        <br><br>
+        My background is in mathematical physics and I currently work on complex systems theory at
+        <a href="https://www.csh.ac.at/">CSH, Vienna</a> as a Ph.D. candidate.  
+        <br><br>
+        Feel welcomed to reach out to me to talk about any ideas, requests, or questions you might have.
+        I'm always happy to ideate together and make good ideas happen. 
+        Contact: mail@timbooker.net.
+        <br><br>
+        Previously I was a visiting scholar at <a href="https://www.gsais.kyoto-u.ac.jp/en-top/overview">GSAIS, Kyoto University</a> 
+        (a.k.a. 思修館) studying the entropy of complex systems under the supervision of <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/ja.8490c78a7879636b.html">
+        Prof. Liang Zhao</a>. I completed my honours degree at <a href="https://www.swinburne.edu.au/about/our-structure/organisational-structure/schools-departments/school-science-computing-engineering-technologies/department-mathematics">
+        Swinburne University, Melbourne</a>, studying novel self-avoiding walk models under supervision by <a href="https://clisby.net/">Prof. Nathan Clisby</a>. 
+        <br><br>
+        Click below for more <br>
+        <a href="placeholder">Research</a>                      &nbsp;|&nbsp;
+        <a href="placeholder">About</a>                         &nbsp;|&nbsp;
+        <a href="https://twitter.com/tims_not_real">Twitter</a> 
 
 
-
-    <p4 style = "position:absolute; left:150px; top:665px;">
-        Background image credits: @sudheernunna on Unsplash
-    </p4>
+    </div>
 </body>    
 
 
