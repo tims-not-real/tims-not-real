@@ -1,0 +1,97 @@
+/* Set custom fonts for headers */
+
+body {
+  background-color: black;
+}
+
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@font-face {
+  font-family: 'Kilo';
+  src: url(Kilo.otf);
+}
+
+@font-face {
+  font-family: 'Sono-Regular';
+  src: url(Sono-Regular.ttf);
+}
+
+
+a:hover { /*Link hover colour */
+  color: rgb(0, 255, 242);
+  background-color: transparent;
+  text-decoration: underline;
+}  
+
+a:visited {
+  color: rgb(112, 9, 237);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kilo';
+  color: whitesmoke;
+}
+
+/* Set custom font for paragraphs */
+p {
+  font-family: 'Sono-Regular';
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: whitesmoke;
+}
+
+header {
+  font-family: 'Kilo';
+  color: whitesmoke;
+}
+
+footer {
+  position: relative;
+  height: 100%;
+  padding: 2rem
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    object-fit: cover;
+  }
+  
+  .text {
+    width: 40%;
+    padding: 4rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  
+  /* media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  
+  img, .text {
+    width: 100%;
+  }
+}
