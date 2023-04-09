@@ -17,8 +17,8 @@ body {
 }
 
 @font-face {
-  font-family: 'Sono-Regular';
-  src: url(Sono-Regular.ttf);
+  font-family: Sono-Light;
+  src: url(Sono-Light.ttf);
 }
 
 
@@ -29,27 +29,27 @@ a:hover { /*Link hover colour */
 }  
 
 a:visited {
-  color: rgb(112, 9, 237);
+  color: rgb(155, 90, 234);
   background-color: transparent;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Kilo';
-  color: whitesmoke;
+  color: white;
 }
 
 /* Set custom font for paragraphs */
 p {
-  font-family: 'Sono-Regular';
-  font-size: 1.2rem;
+  font-family: Sono-Light;
+  font-size: 0.8rem;
   line-height: 1.5;
-  color: whitesmoke;
+  color: white;
 }
 
 header {
   font-family: 'Kilo';
-  color: whitesmoke;
+  color: white;
 }
 
 footer {
@@ -59,6 +59,7 @@ footer {
 }
 
 .container {
+    margin-top: 2%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -80,10 +81,7 @@ footer {
     margin-bottom: 1rem;
   }
   
-  p {
-    font-size: 0.8rem;
-    line-height: 1.5;
-  }
+
   
   /* media query for mobile devices */
 @media only screen and (max-width: 600px) {
